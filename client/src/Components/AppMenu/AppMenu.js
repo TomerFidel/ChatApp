@@ -85,7 +85,7 @@ export default function AppMenu() {
 						/>
 					</div> Search field will be added soon*/}
 					<Typography className={`${classes.title} ${classes.grow}`} variant="h6" noWrap >
-						Chat app
+						Chat app Testing
 					</Typography>
 					<Button color="inherit" className={classes.logoutButton} onClick={logout}>Logout</Button>
 				</Toolbar>
