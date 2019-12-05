@@ -103,7 +103,7 @@ function Home(props) {
     return (    
         <Container maxWidth="md">
             {toLogin ? <Redirect to='/Login' /> : null}
-            <Fade in timeout={1200}>
+            <Fade in timeout={1200}>jjj
                 <Paper margin={3} className={classes.app}>
                     <AppMenu />
                     <Grid container className={matches ? null : classes.flex}>
